@@ -2,14 +2,12 @@
 <manifest>
 
 	<remote name="dt"
-                fetch="https://github.com/cArN4gEisDeD" />
+                fetch="https://github.com/Th30utlaw" />
+	<remote name="tree"
+		fetch="https://github.com/PixelExtended-Devices"
 
-        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="dt" revision="spark" clone-depth="1" />
-        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="dt" revision="eleven" clone-depth="1" />
-        <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="dt" revision="lineage-18.1" clone-depth="1" />
-	<remove-project name="frameworks_base" />
-	<project path="frameworks/base" name="frameworks_base" remote="dt" revision="fire" clone-depth="1" />
-	<remove-project name="frameworks_opt_net_wifi" />
-	<project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="dt" revision="fire" clone-depth="1" />
+        <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="dt" revision="ace" clone-depth="1" />
+        <project path="vendor/xiaomi/olivewood" name="vendor_xiaomi_olivewood" remote="tree" revision="ace" clone-depth="1" />
+	<project path="kernel/xiaomi/olivewood" name="kernel_xiaomi_olivewood" remote="tree" revision="ace" clone-depth="1" />
 
 </manifest>
