@@ -3,6 +3,8 @@
 
 	<remote name="dt"
                 fetch="https://github.com/Th30utlaw" />
+	<remote name="dt"
+                fetch="https://github.com/Th30utlaw" />
 	<remote name="tree"
 		fetch="https://github.com/PixelExtended-Devices" />
 
