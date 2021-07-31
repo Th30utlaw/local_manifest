@@ -4,7 +4,7 @@
 	<remote name="dt"
                 fetch="https://github.com/Th30utlaw" />
 	<remote name="tree"
-		fetch="https://github.com/PixelExtended-Devices"
+		fetch="https://github.com/PixelExtended-Devices" />
 
         <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="dt" revision="ace" clone-depth="1" />
         <project path="vendor/xiaomi/olivewood" name="vendor_xiaomi_olivewood" remote="tree" revision="ace" clone-depth="1" />
