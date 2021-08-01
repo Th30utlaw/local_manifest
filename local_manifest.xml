@@ -3,7 +3,7 @@
 
 	<remote name="dt"
                 fetch="https://github.com/Th30utlaw" />
-	<remote name="dt"
+	<remote name="tree"
                 fetch="https://github.com/PixelExtended-Devices"  />
 
         <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="dt" revision="ace" clone-depth="1" />
