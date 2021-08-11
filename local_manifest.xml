@@ -15,5 +15,6 @@
 	<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="tree" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
         <remove-project name="android_packages_apps_FMRadio" />
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="tree" revision="lineage-18.1" clone-depth="1" />
+        <remove-project name="device/generic/opengl-transport" />
 
 </manifest>
