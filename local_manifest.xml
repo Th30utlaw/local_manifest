@@ -5,6 +5,8 @@
                 fetch="https://github.com/Th30utlaw" />
 	<remote name="tree"
                 fetch="https://github.com/mi-sdm439"  />
+        <remote name="patch"
+                fetch="https://github.com/LineageOS"  />
 	
 	<project path="device/xiaomi/olives" name="android_device_xiaomi_olives" remote="dt" revision="posp" clone-depth="1" />
 	<project path="device/xiaomi/sdm439-common" name="android_device_xiaomi_sdm439-common" remote="tree" revision="lineage-18.1" clone-depth="1" />
@@ -16,5 +18,7 @@
         <remove-project name="android_packages_apps_FMRadio" />
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="tree" revision="lineage-18.1" clone-depth="1" />
         <remove-project name="device/generic/opengl-transport" />
+        <remove-project name="frameworks_opt_net_wifi" />
+	<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="patch" revision="lineage-18.1" clone-depth="1" />
 
 </manifest>
