@@ -13,8 +13,8 @@
         <project path="vendor/xiaomi/olives" name="proprietary_vendor_xiaomi_olives" remote="tree" revision="lineage-18.1" clone-depth="1" />
 	<project path="vendor/xiaomi/sdm439-common" name="proprietary_vendor_xiaomi_sdm439-common" remote="tree" revision="lineage-18.1" clone-depth="1" />
 	<project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="dt" revision="a11/master" clone-depth="1" />
-	<remove-project name="platform/hardware/qcom/display" />
-	<project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="tree" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
+	<remove-project name="android_hardware_qcom_display" />
+	<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="patch" revision="lineage-18.1" clone-depth="1" />
         <remove-project name="android_packages_apps_FMRadio" />
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="tree" revision="lineage-18.1" clone-depth="1" />
         <remove-project name="device/generic/opengl-transport" />
