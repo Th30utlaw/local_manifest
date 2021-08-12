@@ -18,7 +18,5 @@
         <remove-project name="android_packages_apps_FMRadio" />
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="tree" revision="lineage-18.1" clone-depth="1" />
         <remove-project name="device/generic/opengl-transport" />
-        <remove-project name="frameworks_opt_net_wifi" />
-	<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="patch" revision="lineage-18.1" clone-depth="1" />
 
 </manifest>
