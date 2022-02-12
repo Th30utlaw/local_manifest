@@ -26,7 +26,7 @@
   <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="device" revision="S" />
   <project path="vendor/xiaomi/olives"         name="vendor_xiaomi_olives"      remote="device" revision="12.0" />
 
-  <remove-project name="android_hardware_qcom_wlan" />
+  <remove-project name="LineageOS/android_hardware_qcom_wlan" />
   <project path="hardware/qcom-caf/wlan"         name="hardware_qcom-caf_wlan"   remote="device" revision="S" />
   
   <project path="packages/apps/FMRadio"         name="android_packages_apps_FMRadio"   remote="device" revision="lineage-18.1" />
