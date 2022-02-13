@@ -6,6 +6,9 @@
            fetch="https://github.com/ChuckProjekt" />"
   <remote  name="kernel"
            fetch="https://github.com/mi-sdm439" />
+  <remote name="pixel"
+           fetch="https://github.com/PixelExperience" />
+
 
  <!-- hals -->
   <remove-project name="LineageOS/android_hardware_qcom_display" />
@@ -31,4 +34,10 @@
   
   <project path="packages/apps/FMRadio"         name="android_packages_apps_FMRadio"   remote="device" revision="lineage-18.1" />
   
+  <project path="external/ant-wireless/antradio-library" 
+            name="external_ant-wireless_antradio-library" 
+            remote="pixel"
+            revision="twelve"/>
+
+
 </manifest>
