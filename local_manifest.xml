@@ -55,4 +55,10 @@
             remote="device" 
             revision="12.1"/>
 
+   <remove-project name="android_device_qcom_sepolicy"/>
+   <project path="device/qcom/sepolicy-legacy-um" 
+            name="android_device_qcom_sepolicy"
+            remote="device" 
+            revision="12.1"/>
+
 </manifest>
